@@ -19,8 +19,10 @@ then sort them by ascending hacker_id.
 /*
     Join all the tables to Submissions
     Select hacker_id and name
-    Count number of top scores by hacker_id
-    Order by numer of perfect scores then hacker_id
+    Filter on actual score is top score
+    Group by hacker_id and name
+    Filter within group for more than one top score by hacker
+    Order by count of hacker_id descending and per group and hacker_id ascending
 */
 
 SELECT
